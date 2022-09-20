@@ -17,7 +17,7 @@ function renderCartItem(item) {
 
     let itemCountText = '';
     itemCountText = itemCountText + product.count;
-    itemCountText = itemCountText + ' \2716 ';
+    itemCountText = itemCountText + ' \u00D7 ';
     itemCountText = itemCountText + product.price;
     itemCountText = itemCountText + ' ₽ = ';
     let sum = product.count * product.price;
